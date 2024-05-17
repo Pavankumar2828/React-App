@@ -1,0 +1,37 @@
+.addproducts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.addproducts form{
+    margin-top: 30px;
+    background-color: rgb(127, 248, 121);
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.addproducts form table{
+    text-align: justify;
+}
+.addproducts form table *{
+    margin: 10px;
+}
+#description #iddd{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0px;
+
+}
+.addproducts form input{
+    width: 85%;
+    padding: 3px 0px;
+}
+.addproducts form button{
+    border: none;
+    background-color: rgb(0, 110, 255);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}

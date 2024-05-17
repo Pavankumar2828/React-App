@@ -1,0 +1,23 @@
+.additem{
+    display: flex;
+    height: 75v;
+    width: 75v;
+    justify-content: center;
+    align-items: center;
+}
+.additem form{
+    border: 2px solid;
+    border-radius: 12px;
+    padding:25px;
+    margin:  10px 150px;
+    background: rgb(224, 172, 28);
+
+}
+
+.additem label{
+    display: flex;
+align-content: end;
+}
+.additem input{
+padding-right:40px;
+}

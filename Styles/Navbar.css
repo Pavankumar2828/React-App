@@ -1,0 +1,24 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(127, 248, 121);
+    padding: 20px 50px;
+    font-family: cursive;
+
+}
+a{
+    text-decoration: none;
+}
+.navbar .logo a{
+    color: rgb(66, 66, 66);
+}
+.navbar .logo h1 span{
+    color: rgb(255, 0, 0);
+}
+.navbar .pages a{
+    color: black;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}

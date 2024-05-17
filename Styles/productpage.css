@@ -1,0 +1,31 @@
+.content{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.content img{
+    height: 350px;
+    border-radius: 10px;
+    width: 550px;
+}
+
+.content .right{
+    text-align: start;
+    margin-left: 40px;
+}
+.content .right #dishname{
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+.content .right #dishname span{
+    padding: 8px;
+    font-size: 17px;
+    margin-left: 80px;
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+}
+#star{
+    font-size: 20px;
+}

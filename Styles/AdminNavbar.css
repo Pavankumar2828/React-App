@@ -1,0 +1,19 @@
+.AdminNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+    background: lightgreen;
+}
+.AdminNavbar a{
+color: rgb(225, 167, 19);
+margin: 0px 20px;
+}
+.AdminNavbar span{
+    color:rgb(163, 95, 227);
+    font-style: italic;
+}
+.AdminNavbar h1{
+    font-style: italic;
+    font-family: cursive;
+}

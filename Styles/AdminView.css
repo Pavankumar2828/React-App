@@ -1,0 +1,79 @@
+.adminview{
+    text-align: start;
+    font-family: cursive;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 50px;
+}
+.adminview #sidebars{
+    margin: 20px 0px ;
+}
+.foods{
+    text-align: start;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: space-around;
+
+}.foods a{
+    text-decoration: none;
+    color: rgb(0, 86, 198);
+}
+.foods .card{
+    /* background-color: rgb(89, 190, 130); */
+    border: 1px solid rgb(59, 59, 59);
+    box-shadow: 0px 0px 10px rgb(95, 95, 95);
+    width: 235px;
+    border-radius: 20px;
+    margin: 5px 25px 35px 0px;
+    padding: 0px 0px 10px 0px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.foods .card img{
+    border-radius: 20px;
+    height: 250px;
+    width: 100%;
+}
+.foods .card-details{
+    padding: 0px 10px;
+}
+.restaurant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(212, 47, 47);
+    /* border-bottom: 1px dashed black; */
+}
+.restaurant h3{
+    display: flex;
+    align-items: center;
+    background-color: rgb(237, 46, 46);
+    color: white;
+    padding: 2px 8px;
+    font-size: 12px;
+    border-radius: 8px;
+}
+#star{
+    font-size: 18px;
+}
+.card-details #price{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.card-details #price #rupeeIcon{
+    font-size: 19px;
+}
+.ops{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ops button{
+    font-size: 15px;
+    background-color: rgb(0, 102, 255);
+    color: white;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 10px;
+}

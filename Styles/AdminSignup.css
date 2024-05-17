@@ -1,0 +1,23 @@
+#adminsignup{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+#adminsignup button{
+background:linear-gradient(lightgreen,lightpink,skyblue);
+}
+#adminsignup form{
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 40px;
+    color: blue;
+    background: linear-gradient(45deg,yellow,skyblue,lightgreen);
+}
+#adminsignup input{
+    margin-top: 10px;
+    border: none;
+    border-bottom:solid;
+color: rgb(4, 255, 0);
+}
